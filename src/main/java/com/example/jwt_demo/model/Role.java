@@ -1,4 +1,4 @@
-package model;
+package com.example.jwt_demo.model;
 
 import javax.persistence.*;
 
@@ -14,3 +14,4 @@ public class Role {
 
     // Getters and setters
 }
+

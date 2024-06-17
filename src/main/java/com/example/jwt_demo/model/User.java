@@ -1,4 +1,4 @@
-package model;
+package com.example.jwt_demo.model;
 
 import javax.persistence.*;
 import java.util.Set;
