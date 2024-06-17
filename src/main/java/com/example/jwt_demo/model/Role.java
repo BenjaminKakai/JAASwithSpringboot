@@ -2,8 +2,6 @@ package com.example.jwt_demo.model;
 
 import jakarta.persistence.*;
 
-import javax.persistence.*;
-
 @Entity
 @Table(name = "roles")
 public class Role {
@@ -15,5 +13,11 @@ public class Role {
     private String name;
 
     // Getters and setters
-}
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+}
