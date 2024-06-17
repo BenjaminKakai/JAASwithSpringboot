@@ -1,7 +1,6 @@
-package com.example.jwt-demo.service;
-
-import com.example.jwt-demo.dto.LoginDto;
-import com.example.jwt-demo.security.JwtTokenProvider;
+package com.example.jwt_demo.service;
+import com.example.jwt_demo.dto.LoginDto;
+import com.example.jwt_demo.security.JwtTokenProvider;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

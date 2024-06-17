@@ -1,5 +1,5 @@
-package com.example.jwt-demo.security;
-
+package com.example.jwt_demo.security;
+import com.example.jwt_demo.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import com.example.jwt-demo.model.User;
-import com.example.jwt-demo.repository.UserRepository;
+import com.example.jwt_demo.model.User;
+import com.example.jwt_demo.repository.UserRepository;
 
 import java.util.Set;
 import java.util.stream.Collectors;

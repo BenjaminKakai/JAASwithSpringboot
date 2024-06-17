@@ -1,5 +1,7 @@
 package com.example.jwt_demo.model;
 
+import jakarta.persistence.*;
+
 import javax.persistence.*;
 import java.util.Set;
 

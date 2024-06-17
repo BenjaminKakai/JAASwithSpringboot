@@ -1,8 +1,8 @@
-package com.example.jwt-demo.controller;
+package com.example.jwt_demo.controller;
 
-import com.example.jwt-demo.dto.LoginDto;
-import com.example.jwt-demo.dto.JwtAuthResponse;
-import com.example.jwt-demo.service.AuthService;
+import com.example.jwt_demo.dto.LoginDto;
+import com.example.jwt_demo.dto.JwtAuthResponse;
+import com.example.jwt_demo.service.AuthService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,6 @@
-package com.example.jwt-demo.security;
+package com.example.jwt_demo.security
+
+-demo.security;
 
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
